@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Essays on Jellyfish Jabberings</title>
+    <link>http://jellyfishjabberings.ssaraf.com/essays/</link>
+    <description>Recent content in Essays on Jellyfish Jabberings</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://jellyfishjabberings.ssaraf.com/essays/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Organizational memory is very short</title>
+      <link>http://jellyfishjabberings.ssaraf.com/essays/memory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jellyfishjabberings.ssaraf.com/essays/memory/</guid>
+      <description> Organizational memory is very short # </description>
+    </item>
+    
+    <item>
+      <title>Process over Speed is usually a mistake</title>
+      <link>http://jellyfishjabberings.ssaraf.com/essays/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jellyfishjabberings.ssaraf.com/essays/process/</guid>
+      <description>At me ipso nepotibus nunc celebratior genus # Tanto oblite # Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat admonitu concidit, ad resimas vultus et rugas vultu dignamque Siphnon.
+Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt dixit: ritu pharetramque.</description>
+    </item>
+    
+    <item>
+      <title>Example draft</title>
+      <link>http://jellyfishjabberings.ssaraf.com/essays/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jellyfishjabberings.ssaraf.com/essays/example/</guid>
+      <description>What is this # Columns # Columns help organize shorter pieces of content horizontally for readability.
+{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Mid Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Right Content Lorem markdownum insigne... {{&amp;lt; /columns &amp;gt;}} Buttons # Buttons are styled links that can lead to local page or external link.</description>
+    </item>
+    
+  </channel>
+</rss>
