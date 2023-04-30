@@ -16,13 +16,13 @@ The best people for the job # It took me a long time to realize that the smartes
     </item>
     
     <item>
-      <title>Process over Speed is usually a mistake</title>
-      <link>http://jellyfishjabberings.ssaraf.com/essays/process/</link>
+      <title>Complexity is often irreducible</title>
+      <link>http://jellyfishjabberings.ssaraf.com/essays/complexity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jellyfishjabberings.ssaraf.com/essays/process/</guid>
-      <description>At me ipso nepotibus nunc celebratior genus # Tanto oblite # Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat admonitu concidit, ad resimas vultus et rugas vultu dignamque Siphnon.
-Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt dixit: ritu pharetramque.</description>
+      <guid>http://jellyfishjabberings.ssaraf.com/essays/complexity/</guid>
+      <description>Complexity is often irreducible unless you change the problem # We work in a pretty complex industry. Understanding a single customer, and every aspect of what they&amp;rsquo;re doing, is pretty hard. Extending it to lots of customers is even harder. Still, people try, but I see a logical error over and over again when they do so.
+Make me a song # Let&amp;rsquo;s pick a different industry just to use as an analogy - music.</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@ Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://jellyfishjabberings.ssaraf.com/essays/example/</guid>
-      <description>What is this # Columns # Columns help organize shorter pieces of content horizontally for readability.
+      <description>This is an example page that shows me what Hugo Book can do # Columns # Columns help organize shorter pieces of content horizontally for readability.
 {{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Mid Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Right Content Lorem markdownum insigne... {{&amp;lt; /columns &amp;gt;}} Buttons # Buttons are styled links that can lead to local page or external link.</description>
     </item>
     

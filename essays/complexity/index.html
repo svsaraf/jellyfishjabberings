@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complexity is often irreducible unless you change the problem # We work in a pretty complex industry. Understanding a single customer, and every aspect of what they&rsquo;re doing, is pretty hard. Extending it to lots of customers is even harder. Still, people try, but I see a logical error over and over again when they do so.
+Make me a song # Let&rsquo;s pick a different industry just to use as an analogy - music.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Complexity is often irreducible" />
+<meta property="og:description" content="Complexity is often irreducible unless you change the problem # We work in a pretty complex industry. Understanding a single customer, and every aspect of what they&rsquo;re doing, is pretty hard. Extending it to lots of customers is even harder. Still, people try, but I see a logical error over and over again when they do so.
+Make me a song # Let&rsquo;s pick a different industry just to use as an analogy - music." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://jellyfishjabberings.ssaraf.com/essays/complexity/" /><meta property="article:section" content="essays" />
+
+
+<title>Complexity is often irreducible | Jellyfish Jabberings</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.7f5ee8dcbc34556830583ccc90096dfc05d9121d433cb64d1c90a75995209ad9.css" integrity="sha256-f17o3Lw0VWgwWDzMkAlt/AXZEh1DPLZNHJCnWZUgmtk=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.48283695ccaa2f25fe9975da26655006a79dd30506c13bb4b0a0fc23bf20908b.js" integrity="sha256-SCg2lcyqLyX&#43;mXXaJmVQBqed0wUGwTu0sKD8I78gkIs=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  <script defer data-domain="jellyfishjabberings.ssaraf.com" src="https://plausible.io/js/script.js"></script>
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Jellyfish Jabberings</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/about/" class="">About</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Essays</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/essays/memory/" class="">Organizational memory is very short</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Complexity is often irreducible</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h2 id="complexity-is-often-irreducible-unless-you-change-the-problem">
+  <strong>Complexity is often irreducible unless you change the problem</strong>
+  <a class="anchor" href="#complexity-is-often-irreducible-unless-you-change-the-problem">#</a>
+</h2>
+<p>We work in a pretty complex industry. Understanding a single customer, and every aspect of what they&rsquo;re doing, is pretty hard. Extending it to lots of customers is even harder. Still, people try, but I see a logical error over and over again when they do so.</p>
+<h3 id="make-me-a-song">
+  Make me a song
+  <a class="anchor" href="#make-me-a-song">#</a>
+</h3>
+<p>Let&rsquo;s pick a different industry just to use as an analogy - music.</p>
+<p>If I were to analyze all popular songs written in the last 50 years, I&rsquo;d notice a few significant trends. For one, songs seem to fall into very specific groupings.</p>
+<p>And within a grouping, there are some very predictable trends.</p>
+<p>One famous trend is &ldquo;all pop songs use the same chords&rdquo;. To a first approximation, that trend is true. Most pop choruses will involve the same set of dominant, minor sixth, prefect fourth, and perfect fifth chords, because that&rsquo;s what sounds good to a (mostly American) ear.</p>
+<p>So, what if you said: &ldquo;okay, since most pop songs have four chords, I&rsquo;m going to make software that helps people write songs. Here&rsquo;s how it works - we give you a list of chords. You pick one, and it suggests the next chords you probably want, and in the end the song is written!&rdquo;</p>
+<p>Well, one problem is you&rsquo;ll get laughed out of the room.</p>
+<p>Music isn&rsquo;t made that way. For one, if you were reading carefully above, we described our chord trend as an <em>approximation</em>. That&rsquo;s because any particular pop song has all sorts of extra stuff, like diminished 7ths to make the transition to the perfect fifth sound better, or a bridge that uses a minor second, or a key change at the emotional climax of the song.</p>
+<p>And that&rsquo;s just in the chords! Any individual song is really complicated - it has the drums coming in on a certain beat, and the bass line fades in a very particular way at 59 seconds in, and it has harmonies by Rihanna over the top, and it&rsquo;s mastered so that the various sounds in the track are balanced.</p>
+<p>Once you understand all the complexity that goes into making music, you wonder how anyone could possibly do it. How could anyone incorporate so much complexity just to make a version of a 3 minute track that&rsquo;ll end up on a dusty album somewhere?</p>
+<p>But however they do it, if you want them to use your software, they&rsquo;ll want to have much of the control and flexbility that they had in their old system. When you&rsquo;re recording music using a gramaphone, you&rsquo;re not &ldquo;just choosing chords&rdquo;. You get a lot of control over the individual notes played, how loud they are, how much vibrato you use, etc. And so any software you build for &ldquo;making a pop song with Microsoft Clippy&rdquo; has to emulate that complexity - it has to let the user do all of the things the care about from the old process in the new one.</p>
+<p>Of course, your software doesn&rsquo;t have to do absolutely everything. It used to be super annoying to loop tracks manually, until digital music and looper pedals. Most pop artists can now lay in a simple beat via a digital trapset, rather than needing to hire a gig band. So software can help make things better.</p>
+<p>But the end goal, what the artist is trying to do, they&rsquo;re almost always making something as complex as they used to make. Songs get more complex, even the pop ones.</p>
+<p>Your job is to make that easier, but you don&rsquo;t get to change what <em>they&rsquo;re</em> making, you have to change what <em>you&rsquo;re</em> making.</p>
+<h2 id="changing-the-problem">
+  Changing the problem
+  <a class="anchor" href="#changing-the-problem">#</a>
+</h2>
+<p>The most common behavior I see is <em>saying</em> that we&rsquo;re solving the problem of making a pop song, but the problem we&rsquo;re actually solving is <em>a tool for mushing a bunch of reasonable sounding chords together</em>. Those are not the same problem!</p>
+<p>They are similar in some sense, but there&rsquo;s a bunch of steps between one and the other, and no one bothers to talk about those steps for some reason. And yet, when asked about some of the subtlety and complexity that hasn&rsquo;t been addressed yet, I receive the same bromides about how most songs just have four chords. I know that! Everyone knows that!</p>
+<p>I&rsquo;m reminded of the trope about how to draw an owl, which starts with two circles, and then tells instructs the student to &ldquo;draw the rest of it&rdquo;.</p>
+<p>Basically every problem that anyone tries to solve has an 80 / 20 where the 80 looks relatively simple and straightforward and extendable. 80% of companies in this category do X. 80% of configurations look like Y. 80% of analyses look like Z.</p>
+<p>But you can&rsquo;t look at the ever-present 80 / 20 and then draw the conclusion that the 20 is unnecessary or unimportant because it&rsquo;s possible you&rsquo;ve taken a path down the first 80% that is unrecoverable, there&rsquo;s a dead-end where you can&rsquo;t possibly get to where you need to go to satisfy the other 20% of requirements.</p>
+<p>And in the end you&rsquo;ll have built the software equivalent of a toilet that only lets you expel 80% of a bowel movement. The number of people using it won&rsquo;t be 80%&hellip;it&rsquo;ll be 0%.</p>
+<h2 id="pick-something-smaller">
+  Pick something smaller
+  <a class="anchor" href="#pick-something-smaller">#</a>
+</h2>
+<p>The key is understanding exactly what the 80 / 20 refers to. Is it that 80% of customers have one piece of the puzzle that looks the same? That&rsquo;s nothing - those are everywhere.</p>
+<p>What you want is to find 80% of instances of a problem that are solved end-to-end with the same, simple solution.</p>
+<p>To take our music example, instead of solving the problem of &ldquo;make a pop song&rdquo;, our problem could instead be &ldquo;let me select multiple tracks and layer them over each other&rdquo;. That&rsquo;s a very specific problem that most but not all artists have and it&rsquo;s at least concievably a relatively simple software problem.</p>
+<p>It&rsquo;s a way less <em>sexy</em> problem, though. The addressable market is smaller, and the amount we can charge customers is probably less. But we&rsquo;d have some confidence in solving something end-to-end, as unsexy as it is. Meanwhile our chord musher idea basically solved no problem end to end. It&rsquo;s not even on the path to solving something end-to-end.</p>
+<p>I think in most cases, leaders at our organization (and most others) would be best served by picking <em>less</em> ambitious problems. Not because we shouldn&rsquo;t try to do hard things, but because the ambition of the problem can mask a gap in structured thinking about how we&rsquo;re thinking about the solution. We&rsquo;d be better served by focusing on tractable, specific things we can solve, than intractable, wide-ranging, longer timespan projects where we can get to 80% soon-ish, with the rest undefined.</p>
+<h2 id="making-a-better-widget-connect-it-to-the-rest-of-the-machine">
+  Making a better widget, connect it to the rest of the machine
+  <a class="anchor" href="#making-a-better-widget-connect-it-to-the-rest-of-the-machine">#</a>
+</h2>
+<p>Most internal company incentives are to talk about sexy problems, not unsexy ones. And because decision-makers don&rsquo;t always have perfect visibility into why we&rsquo;re doing the things we&rsquo;re doing, it&rsquo;s your job to distinguish between the bad 80% problem (80% of lots of things but 100% of nothing) and the good 80% (100% of a small problem end to end), and make sure you&rsquo;re working on the latter. If you just sell the most interesting problem everywhere, it might work for a while, but in 6 or 9 or 12 months people are going to realize that your thing didn&rsquo;t actually create value for customers.</p>
+<p>There are ways of taking your unsexy thing and making it better without overselling. For example, if your solution solves a critical sub-problem but isn&rsquo;t end-to-end alone, let the customer use an escape hatch to solve the rest of it in another tool. Or, build them an experience that mimics the old system they use for most of the work, but adds your special sauce and improvement for a critical piece. If they get end-to-end faster, you win, even if they aren&rsquo;t using only your product.</p>
+<p>In our music example, the artist still has to make the chords with their guitar and piano, and record drums using the trapset, etc. But they can layer everything together in our tool, and export the song into whatever else they use downstream. The export isn&rsquo;t because we want the customer to use something else - au contraire!</p>
+<p>The export is because we know that unless we solve the whole flow, the customer isn&rsquo;t going to buy us in the first place!</p>
+<p>As more software gets developed, everything we make is going to get passed down to some other system eventually, even if that is just pdfs that sit on a drive somewhere, or other software tools. We shouldn&rsquo;t see connecting to those systems as some kind of failure on our part. We are just a part of the ecosystem, and as long as the customer gets end-to-end value faster or better, they&rsquo;ll use us as part of the flow.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
